@@ -74,12 +74,24 @@ p {
 .lambda-logo{
 }
 
-#navheader {
+#nav-header {
     display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	margin: 25px 0px;
 
+}
+
+.nav-bar{
+    display:flex;
+}
+
+a{
+    width: 115px;
+	flex-basis: auto;
+	color: black;
+	text-decoration: none;
 }
 
 .width-image{
